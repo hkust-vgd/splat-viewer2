@@ -62,7 +62,7 @@ def main():
     )
     parser.add_argument(
         "--output", "-o", default="output.splat", help="The output SPLAT file."
-    )
+    ) # "pier.splat"
     args = parser.parse_args()
     for input_file in args.input_files:
         print(f"Processing {input_file}...")
